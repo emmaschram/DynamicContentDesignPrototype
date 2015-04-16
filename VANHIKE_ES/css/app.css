@@ -1,0 +1,324 @@
+@font-face {
+    font-family: 'Genericons';
+    src: url('genericons/genericons-regular-webfont.eot');
+    src: url('genericons/genericons-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('genericons/genericons-regular-webfont.woff') format('woff'),
+         url('genericons/genericons-regular-webfont.ttf') format('truetype'),
+         url('genericons/genericons-regular-webfont.svg#genericonsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+	color:white;
+}
+
+a:hover {
+	color:white;
+}
+
+
+
+#vanhikenav {
+  font-family:'Onyx', sans-serif;
+  letter-spacing: 4px;
+  font-size:24pt;
+  background-color: #89AC86;
+  color:black;
+}
+
+#navsearchicon {
+    font-size:28pt;
+    color:white;
+    margin-top:7%;
+    margin-left:4%;
+}
+
+#navitems {
+    font-size:13pt;
+}
+
+#navitems:hover {
+     color:#bbd7e5;
+}
+/*homepage*/
+
+@media only screen and (max-width: 40em) {
+
+    body p, div, ul {
+        
+        font-size:10pt;
+        
+    }
+    
+    body h1 {
+        font-size:14pt;
+    }
+    
+    #homelogo {
+       
+        min-width:50%;
+        
+    }
+
+	#searchicon {
+		font-size:20pt;
+	}
+	
+	#mainicons {
+		min-width:90%;
+	}
+	
+}
+
+.mainsearch {
+	margin-top:3%;
+}
+#homelogo {
+    width:25%;
+    margin-top:10%;
+}
+
+#homesearchbar {
+    height:45px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#mainsearchicon {
+    float:right;
+    margin-right:5%;
+    margin-top:4%;
+}
+
+#searchicon {
+     font-size:40pt;
+     color:white;
+	 display:inline-block;
+	 float:right;
+}
+
+#homepara {
+    margin-top:2%;
+    text-align: center;
+    color:white;
+    font-size:16pt;
+}
+
+#mainicons {
+    width:50%;
+}
+
+
+/* ABOUT US */
+
+#about {
+    padding-left:2%;
+    background-color: #89a4b1;
+    color:white;
+}
+#pic1 {
+ 
+    width:95%;
+    padding:2%;
+}
+
+#pic2 {
+   margin-left:2%;
+   margin-bottom:%;
+   width:700px; 
+}
+
+.aboutcontent {
+   margin-left:1%;
+}
+
+#map {
+   margin-left:5%;
+   margin-top:1%;
+}
+
+/* CONTACT US */
+
+#form {
+    height:120px;
+}
+
+#submitbutton {
+    float:right;
+    padding:1%;
+    font-size:14pt;
+    border-style: groove;
+    background-color: #89a4b1;
+    color:white;
+}
+
+
+
+/* AreaPage */
+
+.titlemain {
+    margin-bottom:3%;
+}
+
+.allcolumns {
+    margin-top:.5%;
+}
+
+.areainfo {
+  background: -moz-linear-gradient(50% 100% 90deg,rgba(137, 172, 134, 1) 0%,rgba(106, 130, 103, 1) 87.42%,rgba(102, 124, 99, 1) 99.44%);
+  background: -webkit-linear-gradient(90deg, rgba(137, 172, 134, 1) 0%, rgba(106, 130, 103, 1) 87.42%, rgba(102, 124, 99, 1) 99.44%);
+  background: -webkit-gradient(linear,50% 100% ,50% 0% ,color-stop(0,rgba(137, 172, 134, 1) ),color-stop(0.8742,rgba(106, 130, 103, 1) ),color-stop(0.9944,rgba(102, 124, 99, 1) ));
+  background: -o-linear-gradient(90deg, rgba(137, 172, 134, 1) 0%, rgba(106, 130, 103, 1) 87.42%, rgba(102, 124, 99, 1) 99.44%);
+  background: -ms-linear-gradient(90deg, rgba(137, 172, 134, 1) 0%, rgba(106, 130, 103, 1) 87.42%, rgba(102, 124, 99, 1) 99.44%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#89AC86', endColorstr='#667C63' ,GradientType=0)";
+  background: linear-gradient(0deg, rgba(137, 172, 134, 1) 0%, rgba(106, 130, 103, 1) 87.42%, rgba(102, 124, 99, 1) 99.44%);
+  border-style: solid;
+  border-color: #546D27;
+  border-color: rgba(84, 109, 39, 1);
+  border-width: 4px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#667C63',endColorstr='#89AC86' , GradientType=0);
+   margin-bottom:2%;
+   margin-left:0%;
+}
+
+#areaphoto {
+  padding: 2%;
+  width:74%;
+}
+
+#hikename {
+    text-align:center; 
+    vertical-align: middle;
+    color:white;
+}
+
+#infor {
+   float:right;
+   padding:3%; 
+   width:70%;
+}
+
+.righty {
+	margin-right:-.5%;
+}
+
+#mapyay {
+    margin-top:1%;
+    
+}
+
+.vanshitty {
+    margin-top:4%;
+}
+/* Hike Page */
+
+#mainphoto {
+	width: 110%;
+}
+
+.leftie {
+	margin-left:%;
+}
+
+.areainfot {
+   background-color: #80a07d; 
+   border-color: #556953; 
+   border-style:outset;
+   margin-bottom:2%;
+   margin-left:%;
+}
+
+#areaphotot {
+  padding: 2%;
+  width:74%;
+}
+
+#hikenamet {
+    text-align:center; 
+    color:white;
+}
+
+#infort {
+   margin-top:5%;
+   float:right;
+   padding:3%; 
+   width:70%;
+}
+
+#infobg {
+ background-color:#edf9ff;
+ margin-bottom:2%;
+ 
+}
+
+#infoicons {
+	width:20%;
+	padding:1%; 
+    
+}
+
+span {
+   display:inline;
+}
+/* Footer */
+
+footer {
+ position:relative;
+}
+
+.bgfooter {
+    background-color:rgb(51,51,51);
+    width:100%;  
+    left:0;
+}
+
+#footerlogo {
+  width:50%;
+  margin:2%;
+ 
+}
+
+.footername {
+    color:white;
+    margin:2%;
+}
+
+#traillist {
+    z-index:1;
+    list-style-type: none;
+}
+
+#headery {
+    color:white;
+    margin-left:4%;
+}
+
+#footersocialicons {
+    display:inline;
+}
+
+#btmicons {
+    font-size:25pt;
+    padding:2%;
+    color:white;
+}
+
+
+#mountains {
+    position:fixed;
+    left:00px;
+	top:20%;
+	height:auto;
+    opacity:.5;
+    z-index:-1;
+}
+
+#mountains2 {
+    position:fixed;
+    left:00px;
+	top:87%;
+	height:auto;
+    opacity:.4;
+    z-index:-1;
+}
