@@ -17,8 +17,6 @@ a:hover {
 	color:white;
 }
 
-
-
 #vanhikenav {
   font-family:'Onyx', sans-serif;
   letter-spacing: 4px;
@@ -42,6 +40,91 @@ a:hover {
      color:#bbd7e5;
 }
 /*homepage*/
+
+.homeimgs{
+    z-index:1;
+}
+
+.homeheaders1 {
+   	color:white;
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform: rotate(90deg);
+    left:-32%;
+    top:38%;
+	font-family:'Onyx', sans-serif;
+    letter-spacing:.1em;
+	font-size:6em;
+	font-weight:normal;
+	text-shadow:#fff 0px 1px 0, #000 0 -1px 0;
+    position:absolute;
+    white-space: nowrap;
+    background-color:rgba(0, 0, 0, 0.25);
+    padding-left:30%;
+    padding-right:30%;
+}
+
+.homeheaders2 {
+   	color:white;
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform: rotate(90deg);
+    left:-34%;
+    top:38%;
+	font-family:'Onyx', sans-serif;
+    letter-spacing:.1em;
+	font-size:6em;
+	font-weight:normal;
+	text-shadow:#fff 0px 1px 0, #000 0 -1px 0;
+    position:absolute;
+    white-space: nowrap;
+    background-color:rgba(0, 0, 0, 0.25);
+    padding-left:30%;
+    padding-right:90%;
+}
+
+
+.homeheaders3 {
+   	color:white;
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform: rotate(90deg);
+    left:-41%;
+    top:42%;
+	font-family:'Onyx', sans-serif;
+    letter-spacing:.09em;
+	font-size:6em;
+	font-weight:normal;
+	text-shadow:#fff 0px 1px 0, #000 0 -1px 0;
+    position:absolute;
+    white-space: nowrap;
+    background-color:rgba(0, 0, 0, 0.25);
+    padding-left:30%;
+    padding-right:30%;
+}
+
+
+.homeheaders4 {
+   	color:white;
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform: rotate(90deg);
+    left:-41%;
+    top:43%;
+	font-family:'Onyx', sans-serif;
+    letter-spacing:.02em;
+	font-size:5.5em;
+	font-weight:normal;
+	text-shadow:#fff 0px 1px 0, #000 0 -1px 0;
+    position:absolute;
+    white-space: nowrap;
+    background-color:rgba(0, 0, 0, 0.25);
+    padding-left:30%;
+    padding-right:30%;
+}
+
+
+
 
 @media only screen and (max-width: 40em) {
 
