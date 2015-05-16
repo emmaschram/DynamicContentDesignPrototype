@@ -45,7 +45,7 @@ a:hover {
     z-index:1;
 }
 
-/*.homeheaders1 {
+.homeheaders1 {
    	color:white;
 	-webkit-transform:rotate(90deg);
 	-moz-transform:rotate(90deg);
@@ -122,7 +122,7 @@ a:hover {
     padding-left:30%;
     padding-right:30%;
 }
-*/
+
 
 
 
@@ -223,6 +223,29 @@ a:hover {
 
 /* CONTACT US */
 
+#fldinquiry {
+    height:103px;
+}
+
+#form {
+    height:120px;
+}
+
+#imgcontact {
+    padding-top:2%;
+    width:97%;
+}
+
+#imgcontactbtm {
+    padding-top:-10%;
+    width:96%;
+}
+
+#imgcontactbtm2 {
+    padding-top:-10%;
+    padding-bottom:5%;
+    width:96%;
+}
 #form {
     height:120px;
 }
@@ -234,6 +257,10 @@ a:hover {
     border-style: groove;
     background-color: #89a4b1;
     color:white;
+}
+
+#inquiry {
+    height: 200px;
 }
 
 
@@ -404,4 +431,8 @@ footer {
 	height:auto;
     opacity:.4;
     z-index:-1;
+}
+
+#aboutregion {
+   margin-left:1%; 
 }
